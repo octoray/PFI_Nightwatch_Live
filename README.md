@@ -19,15 +19,24 @@ Nightwatch will run custom tests against an tekka PFI client site every day at 8
 ### Run tests
 The tests for nightwatch are written using [nodeunit](https://github.com/caolan/nodeunit) as the test framework. To run the nodeunit tests do:
 ```sh
-$ npm test
+$ ./nightwatch --config nightwatch.json --group Tekka
 ```
 
 ### Add tests
+```sh
+add too
+$ /home/nightwatch/node_modules/nightwatch/run_scripts/Tekka
+```
 
 ### Check run results
+```sh
+$ grep -i "nightwatch" /var/log/cron
+```
 
 ### Check Run debug Logs
-
+```sh
+$ grep -i nightwatch /var/spool/mail/root
+```
 
 ### Discuss
 In addition to [Twitter](https://twitter.com/nightwatchjs), the [Mailing List/Google Group](https://groups.google.com/forum/#!forum/nightwatchjs) is also available for Nightwatch related discussions.
