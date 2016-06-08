@@ -38,11 +38,10 @@ $ grep -i "nightwatch" /var/log/cron
 $ grep -i nightwatch /var/spool/mail/root
 ```
 
-### Discuss
-In addition to [Twitter](https://twitter.com/nightwatchjs), the [Mailing List/Google Group](https://groups.google.com/forum/#!forum/nightwatchjs) is also available for Nightwatch related discussions.
+### Wiki
+Check PFI V4 in the ops wiki for further information and or the TSG Nightwatch Support guide.
 
-### Setup Guides
-Browser specific setup and usage guides along with debugging instructions can be found on the [**Wiki**](https://github.com/beatfactor/nightwatch/wiki).
+David Wintour
 
 
 
