@@ -69,7 +69,7 @@ var http = require("http"); module.exports = {
         method: "HEAD"
     }, function (response) {
       client
-        .verify.equal(response.headers["content-length"], 2908, '/assets/vod-content/v2/js/script.js Same file size');
+        .verify.equal(response.headers["content-length"], 29081, '/assets/vod-content/v2/js/script.js Same file size');
       client.end();
     }).on("error", function (err) {
       console.log(err);
