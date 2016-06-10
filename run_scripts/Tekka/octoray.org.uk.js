@@ -16,7 +16,7 @@ var http = require("http"); module.exports = {
       //.verify.cssProperty("div.merchant-button.btn1", "opacity", "0.4")
       //.verify.cssProperty("div.merchant-button.btn1", "text-decoration", "none")
       .verify.cssProperty("#prelander-v2-container #step1", "font-family", "Eurostile,Helvetica Neue,Arial,Helvetica,Geneva,sans-serif")
-      .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-info", "font-size", "12px")
+      .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-info", "font-size", "2px")
       .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "color", "rgba(255, 255, 255, 1)")
       //.verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "background", "linear-gradient(#43b257, #1c9933)")
       .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "font-size", "13px")
