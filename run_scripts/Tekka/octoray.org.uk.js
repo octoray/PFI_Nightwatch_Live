@@ -15,9 +15,14 @@ var http = require("http"); module.exports = {
       //.verify.cssProperty("div.merchant-button.btn1", "background-color", "rgb(0, 140, 255)")
       //.verify.cssProperty("div.merchant-button.btn1", "opacity", "0.4")
       //.verify.cssProperty("div.merchant-button.btn1", "text-decoration", "none")
-      //.verify.cssProperty("div.merchant-button.btn1", "opacity", "0.4")
-      //.verify.cssProperty("div.merchant-button.btn1", "opacity", "0.4")
+      .verify.cssProperty("#prelander-v2-container #step1", "font-family", "eurostile")
+      .verify.cssProperty("#prelander-v2-container #step1", "background", "rgb(0, 140, 255)")
       .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-info", "font-size", "12px")
+      .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "color", "white")
+      .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "background", "linear-gradient(#43b257, #1c9933)")
+      .verify.cssProperty("#prelander-v2-container #step1 .prelander-v2-button-confirm-select", "font-size", "13px")
+      .verify.containsText(".prelander-v2-button-confirm-select", "Subscribee")
+      .verify.containsText(".prelander-v2-info", "Select now & continue for step #2")
       .pause(2000) .end();
   },
   
