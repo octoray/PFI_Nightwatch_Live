@@ -80,7 +80,7 @@ var http = require("http"); module.exports = {
         method: "HEAD"
     }, function (response) {
       client
-        .verify.equal(response.headers["content-length"], 84345, '/assets/vod-content/v2/js/ewankApp.js Same file size');
+        .verify.equal(response.headers["content-length"], 71391, '/assets/vod-content/v2/js/ewankApp.js Same file size');
       client.end();
     }).on("error", function (err) {
       console.log(err);
@@ -95,7 +95,7 @@ var http = require("http"); module.exports = {
         method: "HEAD"
     }, function (response) {
       client
-        .verify.equal(response.headers["content-length"], 9766, '/assets/vod-content/v2/css/style.css Same file size');
+        .verify.equal(response.headers["content-length"], 179222, '/assets/vod-content/v2/css/style.css Same file size');
       client.end();
     }).on("error", function (err) {
       console.log(err);
