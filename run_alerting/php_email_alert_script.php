@@ -6,11 +6,9 @@
     $mail->Host = '203.199.178.220'; // Specify main and backup SMTP servers // 220
     $mail->SMTPAuth = true; // Enable SMTP authentication
     $mail->Username = 'alerts'; // SMTP username
-    $mail->Password = 'alert@123'; // SMTP password // TCP port to connect to
-    $mail->From = 'alerts@imimobile.com';
+    $mail->Password = ''; // SMTP password // TCP port to connect to
+    $mail->From = 'alerts@hhhhhhhhhhh.com';
     $mail->addAddress('david.wintour@imimobile.com', 'Foobar'); // Add a recipient
-    $mail->addCC('Shirwan.khan@imimobile.com'); // Add a recipient
-    $mail->addCC('Alex.Sparey@imimobile.com'); // Add a recipient
     $mail->addAttachment($arg1); // Add attachments if passed in
     $mail->addAttachment($arg2); // Add attachments if passed in
     $mail->addAttachment($arg3); // Add attachments if passed in
